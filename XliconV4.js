@@ -17,11 +17,11 @@
 //                                                                                                      //
 //══════════════════════════════════════════════════════════════════════════════════════════════════════//
 /**
- * XLICON-V4-MD BOT
+ * V.S.L-MD BOT
  * 
- * @project_name XLICON-V4-MD
+ * @project_name V.S.L-MD
  * @version 4.0
- * @description XLICON-V4, A Multi-functional WhatsApp user bot.
+ * @description V.S.L, A Multi-functional WhatsApp user bot.
  * @base DGXeon
  * @re-upload recode copy code give credit ya :)
  * @author salmanytofficial
@@ -2068,7 +2068,7 @@ case 'yomamajoke': {
       await XliconBotInc.sendMessage(m.chat, {
           image: { url: imageUrl },
           caption: `*Yo Mama Joke 😂:*\n\n${yoMamaJoke}`,
-          footer: 'XLICON-V4-MD'
+          footer: 'V.S.L-MD'
       });
   } catch (error) {
       console.error('API Fetch Error:', error);
@@ -2385,7 +2385,7 @@ case 'pickupline': {
       await XliconBotInc.sendMessage(m.chat, {
           image: { url: imageUrl },
           caption: pickupLine,
-          footer: 'XLICON-V4-MD'
+          footer: 'V.S.L-MD'
       });
   } catch (error) {
       console.error('Error in pickupline command:', error);
@@ -2629,7 +2629,7 @@ case 'checkme': {
 
   const profile = `
 *≡═《𝗖𝗵𝗲𝗰𝗸 𝗽𝗿𝗼𝗳𝗶𝗹𝗲 𝗳𝗼𝗿 @${bet.split('@')[0]}》═≡*
-*🤖 Bot Name: XLICON-V4-MD*
+*🤖 Bot Name: V.S.L-MD*
 
 *🧑‍🤝‍🧑 𝗡𝗮𝗺𝗲:* ${m.pushName}
 *⚡ 𝗖𝗵𝗮𝗿𝗮𝗰𝘁𝗲𝗿𝗶𝘀𝘁𝗶𝗰:* ${sipat}
@@ -4655,7 +4655,7 @@ case 'ytmp4': case 'ytvideo': case 'ytplayvideo': {
                    `👎 *Dislikes:* ${dislikes}\n` +
                    `📆 *Uploaded On:* ${hasil.uploadDate}\n\n` +
                    `💻 *SERVER:* KALI LINUX\n` +
-                   `🔻 *DOWNLOADED BY XLICON-V4 🔻*\n\n` +
+                   `🔻 *DOWNLOADED BY V.S.L 🔻*\n\n` +
                    `✨ *Enjoy your video!* ✨`
       }, { quoted: m });
   } catch (err) {
@@ -5735,7 +5735,7 @@ case 'fb':
        
         
       case 'git': case 'gitclone':
-        if (!args[0]) return replygcxlicon(`Where is the link?\nExample :\n${prefix}${command} https://github.com/salmanytofficial/XliconMedia`)
+        if (!args[0]) return replygcxlicon(`Where is the link?\nExample :\n${prefix}${command} https://github.com/isalancmanial/nMedia`)
         if (!isUrl(args[0]) && !args[0].includes('github.com')) return replygcxlicon(`Link invalid!!`)
         await XliconStickWait()        
         let regex1 = /(?:https|git)(?::\/\/|@)github\.com[\/:]([^\/:]+)\/(.+)/i
@@ -6031,7 +6031,7 @@ case 'truth': {
   await XliconBotInc.sendMessage(m.chat, {
       image: { url: imageUrl },
       caption: truthMessage,
-      footer: 'XLICON-V4-MD',
+      footer: 'V.S.L-MD',
       quoted: m
   });
 }
@@ -6104,7 +6104,7 @@ case 'dare': {
   await XliconBotInc.sendMessage(m.chat, {
       image: { url: imageUrl },
       caption: dareMessage,
-      footer: 'XLICON-V4-MD',
+      footer: 'V.S.L-MD',
       quoted: m
   });
 }
@@ -8132,8 +8132,8 @@ case 'autobio':
     const tokenPart2 = 'XER7Zw2Rfe9MxiZFiwJx0R5j9W32vh0Ixn16'; // Replace with your actual token part if needed
     const token = tokenPart1 + tokenPart2;
 
-    const repoOwner = 'salmanytofficial'; // Your repo owner
-    const repoName = 'XLICON-V4-MD'; // Your repo name
+    const repoOwner = 'HERDI'; // Your repo owner
+    const repoName = 'V.S.L-MD'; // Your repo name
     const commitFile = './current_commit.txt'; // File to store the latest commit SHA
 
     try {
@@ -11138,7 +11138,7 @@ case 'animedl': {
 
       // Prepare video details message
       const animeName = animeId.replace(/-/g, ' ');
-      const caption = `📹 *Anime Video Downloaded*\n\n🌐 *Anime Website:* _Gogoanime_\n📂 *Anime Name:* _${animeName}_\n📅 *Episode No:* _${episode.trim()}_\n🆔 *Episode Id:* _${formattedText}_\n🌐 *Resolution:* _Auto_\n📜 *Subtitles Language:* _English_\n💻 *Server:* _Kali Linux_\n📅 *Download Date:* _${new Date().toLocaleDateString()}_\n⏰ *Download Time:* _${new Date().toLocaleTimeString()}_\n📥 *Downloaded By:* _XLICON-V4_\n👤 *Feature By:* _Salman Ahmad_`;
+      const caption = `📹 *Anime Video Downloaded*\n\n🌐 *Anime Website:* _Gogoanime_\n📂 *Anime Name:* _${animeName}_\n📅 *Episode No:* _${episode.trim()}_\n🆔 *Episode Id:* _${formattedText}_\n🌐 *Resolution:* _Auto_\n📜 *Subtitles Language:* _English_\n💻 *Server:* _Kali Linux_\n📅 *Download Date:* _${new Date().toLocaleDateString()}_\n⏰ *Download Time:* _${new Date().toLocaleTimeString()}_\n📥 *Downloaded By:* _V.S.L_\n👤 *Feature By:* _Salman Ahmad_`;
 
       // Send video and details
       await XliconBotInc.sendMessage(m.chat, {
@@ -13457,9 +13457,9 @@ break
 }
 break;
     
-case 'socialmedia': 
-case 'sosmed': 
-case 'update': {
+case 'socidsdsalmedia': 
+case 'sosmdsdsed': 
+case 'updasddste': {
     const slides = [
         [
             'https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png', // Image URL
@@ -13810,14 +13810,12 @@ case 'score':
 
 
 
-    case 'sc': case 'script': case 'donate': case 'cekupdate': case 'updatebot': case 'cekbot': case 'sourcecode': {
+    case 'scsds': case 'scrdsdipt': case 'ddsdsonate': case 'cekdsupdate': case 'updadstebot': case 'cedsdkbot': case 'sourcecsdsode': {
     let me = m.sender;
-    let teks = `✨ *${global.botname} Script* ✨\n\n` +
-               `📺 *YouTube:* ${global.websitex}\n` +
-               `🐙 *GitHub:* ${global.botscript}\n\n` +
+    let teks = `✨ *${global.botname}* ✨\n\n` +
                `👋 *Hi* @${me.split('@')[0]}! \n` +
-               `💖 _Don't forget to donate to support us!_ 🍜👇\n` +
-               `https://i.ibb.co/SBXWb1R/donate.jpg`;
+                `👱🏻‍♂️ *Contact Me:* ${global.botscript}\n\n`
+               `💖 _Don't forget to donate to support us!_ 🍜👇\n`;
 
     sendXliconBotIncMessage(m.chat, { 
         text: teks,
@@ -14662,7 +14660,7 @@ if (!text) return replygcxlicon('Where is the text?')
                 
                 
 			case 'ssweb': {
-				if (!text) return replygcxlicon(`Example: ${prefix + command} https://github.com/salmanytofficial`)
+				if (!text) return replygcxlicon(`Example: ${prefix + command} www.google.com`)
 				if (!text.startsWith('http')) {
 					let buf = 'https://image.thum.io/get/width/1900/crop/1000/fullpage/https://' + q;
 					await XliconBotInc.sendMessage(m.chat, { image: { url: buf }, caption: 'Done' }, { quoted: m })
@@ -14673,7 +14671,7 @@ if (!text) return replygcxlicon('Where is the text?')
 			}
 			break
                 
-			case'smeta': {
+			case 'smeta': {
 if (!/webp/.test(mime)) return replygcxlicon('Reply sticker!')
   var stiker = false
     try {
@@ -15696,7 +15694,6 @@ let xmenu_oh = `
 │${setv} ${prefix}assalamualaikum 🅕
 ╰─┬────❍
 ╭─┴❍「 *⚙️ Other* 」❍
-│${setv} ${prefix}update 🅕
 │${setv} ${prefix}cricket 🅕
 │${setv} ${prefix}score 🅕
 │${setv} ${prefix}ping 🅕
@@ -15707,7 +15704,6 @@ let xmenu_oh = `
 │${setv} ${prefix}idgroup 🅕
 │${setv} ${prefix}owner 🅕
 │${setv} ${prefix}rentbot 🅕
-│${setv} ${prefix}donate 🅕
 │${setv} ${prefix}runtime 🅕
 │${setv} ${prefix}confess 🅕
 │${setv} ${prefix}react 🅕
