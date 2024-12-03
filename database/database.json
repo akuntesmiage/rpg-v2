@@ -36,6 +36,42 @@
       "uang": 10000,
       "lastclaim": 1733193451016,
       "lastrampok": 1733193451016
+    },
+    "34619744585@s.whatsapp.net": {
+      "vip": false,
+      "afkTime": -1,
+      "afkReason": "",
+      "limit": 100,
+      "uang": 10000,
+      "lastclaim": 1733193632969,
+      "lastrampok": 1733193632970
+    },
+    "5214121431795@s.whatsapp.net": {
+      "vip": false,
+      "afkTime": -1,
+      "afkReason": "",
+      "limit": 100,
+      "uang": 10000,
+      "lastclaim": 1733193640420,
+      "lastrampok": 1733193640420
+    },
+    "5491151131559@s.whatsapp.net": {
+      "vip": false,
+      "afkTime": -1,
+      "afkReason": "",
+      "limit": 100,
+      "uang": 10000,
+      "lastclaim": 1733193662554,
+      "lastrampok": 1733193662554
+    },
+    "6283190432179@s.whatsapp.net": {
+      "vip": false,
+      "afkTime": -1,
+      "afkReason": "",
+      "limit": 100,
+      "uang": 10000,
+      "lastclaim": 1733193781142,
+      "lastrampok": 1733193781142
     }
   },
   "groups": {
@@ -163,6 +199,30 @@
       "antidelete": false,
       "antiemoji": false,
       "ntnsfw": false
+    },
+    "120363203706483433@g.us": {
+      "ntsfw": false,
+      "welcome": false,
+      "setinfo": false,
+      "badword": false,
+      "antiforeignnum": false,
+      "antibot": false,
+      "antiviewonce": false,
+      "antispam": false,
+      "antivirtex": false,
+      "antimedia": false,
+      "antiimage": false,
+      "antivideo": false,
+      "antiaudio": false,
+      "antipoll": false,
+      "antisticker": false,
+      "antilocation": false,
+      "antidocument": false,
+      "anticontact": false,
+      "antilink": false,
+      "antipromotion": false,
+      "antidelete": false,
+      "antiemoji": false
     }
   },
   "database": {},

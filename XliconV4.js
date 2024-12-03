@@ -4382,6 +4382,8 @@ await XliconStickWait()
 }
 break;
 
+const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
+
 case 'play':
 case 'song': {
   try {
@@ -4399,6 +4401,9 @@ case 'song': {
 
     // Get the first video from the search results
     let video = search.videos[0];
+
+    // Introduce a delay before fetching audio details (adjust the value as needed)
+    await delay(2000); // 2 seconds delay
 
     // Use the new API to fetch the audio details
     const apiUrl = `https://api.siputzx.my.id/api/d/ytmp3?url=${encodeURIComponent(video.url)}`;
@@ -4421,6 +4426,9 @@ case 'song': {
     // Notify user that the audio is being downloaded
     await replygcxlicon('📥 *Downloading audio...*');
 
+    // Introduce a delay before sending the audio message (adjust the value as needed)
+    await delay(3000); // 3 seconds delay before sending audio
+
     // Send audio message
     await XliconBotInc.sendMessage(m.chat, {
       audio: { url: dl },
@@ -4435,9 +4443,6 @@ case 'song': {
 }
 break;
 
-
-
-     
 case 'play2':
 case 'song2': {
   try {
@@ -4455,6 +4460,9 @@ case 'song2': {
 
     // Get the first video from the search results
     let video = search.videos[0];
+
+    // Introduce a delay before fetching audio details (adjust the value as needed)
+    await delay(2000); // 2 seconds delay
 
     // Use the new API to fetch the audio details
     const apiUrl = `https://bk9.fun/download/ytmp3?url=${encodeURIComponent(video.url)}`;
@@ -4483,6 +4491,9 @@ case 'song2': {
     // Notify user that the audio is being downloaded
     await replygcxlicon('📥 *Downloading audio...*');
 
+    // Introduce a delay before sending the audio message (adjust the value as needed)
+    await delay(3000); // 3 seconds delay before sending audio
+
     // Send audio message
     await XliconBotInc.sendMessage(m.chat, {
       audio: { url: link },
@@ -4496,7 +4507,6 @@ case 'song2': {
   }
 }
 break;
-
 
 
 case 'spotify': {
