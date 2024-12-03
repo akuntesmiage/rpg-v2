@@ -13,6 +13,9 @@ RUN apt-get update && \
 # Instal pm2 sebagai global dependency
 RUN npm install -g pm2
 
+# Verifikasi bahwa pm2 berhasil diinstal
+RUN which pm2
+
 # Buat direktori kerja
 WORKDIR /app
 
@@ -39,7 +42,7 @@ ENV TMP_DIR="/tmp/app_cache"
 RUN mkdir -p $TMP_DIR && chmod -R 777 $TMP_DIR
 
 # Tambahkan skrip untuk membersihkan cache secara otomatis saat container dimulai
-RUN echo '#!/bin/bash\nrm -rf $TMP_DIR/*\npm install --force && pm2-runtime start.js' > /cleanup-and-start.sh && \
+RUN echo '#!/bin/bash\nrm -rf $TMP_DIR/*\npm install --force\npm2-runtime start.js' > /cleanup-and-start.sh && \
     chmod +x /cleanup-and-start.sh
 
 # Expose port 5000 untuk aplikasi
