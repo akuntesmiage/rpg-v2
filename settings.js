@@ -48,7 +48,7 @@ global.botname = 'V.S.L' //ur bot name
 global.ownernumber = ['6283852406727', '628895154319']; // Masukkan nomor tambahan di sini
  //ur owner number, dont add more than one
 global.ownername = 'HERDI' //ur owner name
-global.websitex = "https://youtube.com/@V.S.L"
+global.websitex = "https://chat.whatsapp.com/Kh1kOsK33GCEohpf7ezrVs"
 global.wagc = "https://chat.whatsapp.com/Kh1kOsK33GCEohpf7ezrVs"
 global.themeemoji = '⛩'
 global.wm = "V.S.L Bot Inc."

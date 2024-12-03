@@ -72,6 +72,60 @@
       "uang": 10000,
       "lastclaim": 1733193781142,
       "lastrampok": 1733193781142
+    },
+    "919311529317@s.whatsapp.net": {
+      "vip": false,
+      "afkTime": -1,
+      "afkReason": "",
+      "limit": 100,
+      "uang": 10000,
+      "lastclaim": 1733198889457,
+      "lastrampok": 1733198889457
+    },
+    "6287840142507@s.whatsapp.net": {
+      "vip": false,
+      "afkTime": -1,
+      "afkReason": "",
+      "limit": 100,
+      "uang": 10000,
+      "lastclaim": 1733198943792,
+      "lastrampok": 1733198943792
+    },
+    "56996358669@s.whatsapp.net": {
+      "vip": false,
+      "afkTime": -1,
+      "afkReason": "",
+      "limit": 100,
+      "uang": 10000,
+      "lastclaim": 1733198987635,
+      "lastrampok": 1733198987635
+    },
+    "5213513053143@s.whatsapp.net": {
+      "vip": false,
+      "afkTime": -1,
+      "afkReason": "",
+      "limit": 100,
+      "uang": 10000,
+      "lastclaim": 1733199725259,
+      "lastrampok": 1733199725259
+    },
+    "6289618366416@s.whatsapp.net": {
+      "vip": false,
+      "afkTime": -1,
+      "afkReason": "",
+      "limit": 100,
+      "uang": 10000,
+      "lastclaim": 1733199758968,
+      "lastrampok": 1733199758968
+    },
+    "59171955542@s.whatsapp.net": {
+      "vip": false,
+      "afkTime": -1,
+      "afkReason": "",
+      "limit": 100,
+      "uang": 10000,
+      "lastclaim": 1733199809887,
+      "lastrampok": 1733199809887
     }
   },
   "groups": {
@@ -201,6 +255,31 @@
       "ntnsfw": false
     },
     "120363203706483433@g.us": {
+      "ntsfw": false,
+      "welcome": false,
+      "setinfo": false,
+      "badword": false,
+      "antiforeignnum": false,
+      "antibot": false,
+      "antiviewonce": false,
+      "antispam": false,
+      "antivirtex": false,
+      "antimedia": false,
+      "antiimage": false,
+      "antivideo": false,
+      "antiaudio": false,
+      "antipoll": false,
+      "antisticker": false,
+      "antilocation": false,
+      "antidocument": false,
+      "anticontact": false,
+      "antilink": false,
+      "antipromotion": false,
+      "antidelete": false,
+      "antiemoji": false,
+      "ntnsfw": false
+    },
+    "120363351974901970@g.us": {
       "ntsfw": false,
       "welcome": false,
       "setinfo": false,

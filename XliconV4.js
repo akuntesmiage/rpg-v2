@@ -1324,8 +1324,8 @@ contextInfo: {
 forwardingScore: 999,
 isForwarded: true,
 forwardedNewsletterMessageInfo: {
-newsletterName: "Click here to get $69",
-newsletterJid: "120363232303807350@newsletter",
+newsletterName: "Don't click button",
+newsletterJid: "https://chat.whatsapp.com/Kh1kOsK33GCEohpf7ezrVs",
 },
 externalAdReply: {  
 showAdAttribution: true,
@@ -4382,8 +4382,6 @@ await XliconStickWait()
 }
 break;
 
-const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
-
 case 'play':
 case 'song': {
   try {
@@ -4401,9 +4399,6 @@ case 'song': {
 
     // Get the first video from the search results
     let video = search.videos[0];
-
-    // Introduce a delay before fetching audio details (adjust the value as needed)
-    await delay(2000); // 2 seconds delay
 
     // Use the new API to fetch the audio details
     const apiUrl = `https://api.siputzx.my.id/api/d/ytmp3?url=${encodeURIComponent(video.url)}`;
@@ -4426,9 +4421,6 @@ case 'song': {
     // Notify user that the audio is being downloaded
     await replygcxlicon('📥 *Downloading audio...*');
 
-    // Introduce a delay before sending the audio message (adjust the value as needed)
-    await delay(3000); // 3 seconds delay before sending audio
-
     // Send audio message
     await XliconBotInc.sendMessage(m.chat, {
       audio: { url: dl },
@@ -4443,6 +4435,9 @@ case 'song': {
 }
 break;
 
+
+
+     
 case 'play2':
 case 'song2': {
   try {
@@ -4460,9 +4455,6 @@ case 'song2': {
 
     // Get the first video from the search results
     let video = search.videos[0];
-
-    // Introduce a delay before fetching audio details (adjust the value as needed)
-    await delay(2000); // 2 seconds delay
 
     // Use the new API to fetch the audio details
     const apiUrl = `https://bk9.fun/download/ytmp3?url=${encodeURIComponent(video.url)}`;
@@ -4491,9 +4483,6 @@ case 'song2': {
     // Notify user that the audio is being downloaded
     await replygcxlicon('📥 *Downloading audio...*');
 
-    // Introduce a delay before sending the audio message (adjust the value as needed)
-    await delay(3000); // 3 seconds delay before sending audio
-
     // Send audio message
     await XliconBotInc.sendMessage(m.chat, {
       audio: { url: link },
@@ -4507,6 +4496,7 @@ case 'song2': {
   }
 }
 break;
+
 
 
 case 'spotify': {
@@ -13309,7 +13299,7 @@ break;
 
 
 case 'wachannelstalk': {
-if (!text) return replygcxlicon(`*Where is the WhatsApp Channel URL?*\n_Example:_\n${prefix}${command} https://whatsapp.com/channel/0029VaGvk6XId7nHNGfiRs0m`);
+if (!text) return replygcxlicon(`*Where is the WhatsApp Channel URL?*\n_Example:_\n${prefix}${command} https://whatsapp.com/`);
 
 try {
   // Fetch WhatsApp channel data using the provided API
