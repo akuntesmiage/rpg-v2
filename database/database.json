@@ -1,0 +1,98 @@
+{
+  "sticker": {},
+  "users": {
+    "628895154319@s.whatsapp.net": {
+      "vip": false,
+      "afkTime": -1,
+      "afkReason": "",
+      "limit": 100,
+      "uang": 10000,
+      "lastclaim": 1733185982228,
+      "lastrampok": 1733185982228
+    },
+    "6288227606701@s.whatsapp.net": {
+      "vip": false,
+      "afkTime": -1,
+      "afkReason": "",
+      "limit": 100,
+      "uang": 10000,
+      "lastclaim": 1733185983529,
+      "lastrampok": 1733185983529
+    }
+  },
+  "groups": {
+    "628895154319@s.whatsapp.net": {
+      "ntsfw": false,
+      "welcome": false,
+      "setinfo": false,
+      "badword": false,
+      "antiforeignnum": false,
+      "antibot": false,
+      "antiviewonce": false,
+      "antispam": false,
+      "antivirtex": false,
+      "antimedia": false,
+      "antiimage": false,
+      "antivideo": false,
+      "antiaudio": false,
+      "antipoll": false,
+      "antisticker": false,
+      "antilocation": false,
+      "antidocument": false,
+      "anticontact": false,
+      "antilink": false,
+      "antipromotion": false,
+      "antidelete": false,
+      "antiemoji": false,
+      "ntnsfw": false
+    },
+    "6288227606701@s.whatsapp.net": {
+      "ntsfw": false,
+      "welcome": false,
+      "setinfo": false,
+      "badword": false,
+      "antiforeignnum": false,
+      "antibot": false,
+      "antiviewonce": false,
+      "antispam": false,
+      "antivirtex": false,
+      "antimedia": false,
+      "antiimage": false,
+      "antivideo": false,
+      "antiaudio": false,
+      "antipoll": false,
+      "antisticker": false,
+      "antilocation": false,
+      "antidocument": false,
+      "anticontact": false,
+      "antilink": false,
+      "antipromotion": false,
+      "antidelete": false,
+      "antiemoji": false,
+      "ntnsfw": false
+    }
+  },
+  "database": {},
+  "settings": {
+    "6288227606701@s.whatsapp.net": {
+      "anticall": false,
+      "antiswview": false,
+      "totalhit": 0,
+      "totalError": 0,
+      "online": false,
+      "autosticker": false,
+      "autodownload": false,
+      "autobio": false,
+      "autoread": false,
+      "autoblocknum": false,
+      "onlyindia": false,
+      "onlyindo": false,
+      "onlygrub": false,
+      "onlypc": false,
+      "autorecordtype": false,
+      "autorecord": false,
+      "autotype": false
+    }
+  },
+  "others": {}
+}
