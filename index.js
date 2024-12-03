@@ -60,8 +60,12 @@ console.log(chalk.cyan(figlet.textSync("XLICON-V4", {
 })));
 
 console.log(chalk.white.bold(`${chalk.gray.bold("📃  Information :")}         
-✉️  Author : Herdi
-${chalk.green.bold("Powered By V.S.L BOTZ")}\n`));
+✉️  Script : XLICON-V4-MD
+✉️  Author : SALMAN AHMAD
+✉️  Gmail : salmansheikh2500@gmail.com
+✉️  Instagram : ahmmikun
+
+${chalk.green.bold("Powered By XLICON BOTZ")}\n`));
 
 async function startXliconBot() {
     //------------------------------------------------------
