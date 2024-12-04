@@ -1,7 +1,7 @@
-# Gunakan Node.js versi LTS berbasis Debian Buster
+# Use Node.js LTS based on Debian Buster
 FROM node:lts-buster
 
-# Perbarui repositori, instal dependensi, dan bersihkan cache
+# Update repositories, install dependencies, and clean cache
 RUN apt-get update && \
   apt-get install -y \
   ffmpeg \
@@ -10,23 +10,26 @@ RUN apt-get update && \
   apt-get upgrade -y && \
   rm -rf /var/lib/apt/lists/*
 
-# Setel direktori kerja
+# Set the working directory
 WORKDIR /app
 
-# Salin file package.json terlebih dahulu
+# Copy package.json first
 COPY package.json ./
 
-# Salin package-lock.json jika ada
+# Copy package-lock.json if available
 COPY package-lock.json* ./
 
-# Instal semua dependensi Node.js
+# Install Node.js dependencies
 RUN npm install
 
-# Salin semua file aplikasi ke dalam container
+# Install PM2 globally
+RUN npm install pm2 -g
+
+# Copy all files to the container
 COPY . .
 
-# Expose port untuk aplikasi (misalnya port 5000)
+# Expose port 5000 for your app
 EXPOSE 5000
 
-# Jalankan aplikasi dengan PM2
+# Use PM2 to start the app and ensure it's auto-restarted
 CMD ["pm2", "start", "start.js", "--name", "rpg-v2", "--watch", "--autorestart"]
