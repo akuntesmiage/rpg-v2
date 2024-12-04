@@ -35,4 +35,5 @@ RUN chmod -R 755 /app
 EXPOSE 5000
 
 # Jalankan aplikasi menggunakan PM2
-CMD ["pm2", "start", "/app/start.js", "--name", "rpg-v2", "--autorestart"]
+CMD ["pm2", "start", "/app/start.js", "--name", "rpg-v2", "--watch"]
+
