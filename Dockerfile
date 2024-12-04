@@ -14,22 +14,23 @@ RUN apt-get update && \
 WORKDIR /app
 
 # Copy package.json first
-COPY package.json ./
+COPY package.json ./ 
 
 # Copy package-lock.json if available
-COPY package-lock.json* ./
+COPY package-lock.json* ./ 
 
 # Install Node.js dependencies
 RUN npm install
 
-# Install PM2 globally
-RUN npm install pm2 -g
-
 # Copy all files to the container
-COPY . .
+COPY . . 
 
 # Expose port 5000 for your app
 EXPOSE 5000
 
-# Use PM2 to start the app and ensure it's auto-restarted
-CMD ["pm2", "start", "start.js", "--name", "rpg-v2", "--watch", "--autorestart"]
+# Copy the start script and make it executable
+COPY start.sh /app/start.sh
+RUN chmod +x /app/start.sh
+
+# Run the start script
+CMD ["/app/start.sh"]
