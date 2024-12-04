@@ -10,14 +10,17 @@ RUN apt-get update && \
   apt-get upgrade -y && \
   rm -rf /var/lib/apt/lists/*
 
+# Instal PM2 secara global
+RUN npm install -g pm2
+
 # Buat direktori kerja
 WORKDIR /app
 
 # Salin file package.json terlebih dahulu
-COPY package.json ./
+COPY package.json ./ 
 
 # Salin package-lock.json jika ada
-COPY package-lock.json* ./
+COPY package-lock.json* ./ 
 
 # Instal semua dependensi Node.js dari package.json
 RUN npm install && npm install qrcode-terminal
@@ -31,5 +34,5 @@ RUN chmod -R 755 /app
 # Expose port 5000 untuk aplikasi
 EXPOSE 5000
 
-# Jalankan aplikasi menggunakan Node.js langsung
-CMD ["node", "start.js"]
+# Jalankan aplikasi menggunakan PM2
+CMD ["pm2", "start", "/app/start.js", "--name", "rpg-v2", "--autorestart"]
